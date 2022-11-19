@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE users SYSTEM "users.dtd">
+<users
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="defaultNS users.xsd"
+  xmlns="defaultNS">
+  <user id="id1" role="admin">
+    <username>user1</username>
+    <password>user-pass</password>
+    <sex>male</sex>
+  </user>
+  <user id="id2" role="user">
+    <username>user2</username>
+    <password>user-pass</password>
+  </user>
+  <user id="id3">
+    <username>usesr3</username>
+    <password>user-pass</password>
+  </user>
+  <user id="id4">
+    <username>user4</username>
+    <password>user-pass</password>
+    <sex>male</sex>
+  </user>
+</users>

@@ -1,0 +1,11 @@
+<!ELEMENT users (user*)>
+<!ELEMENT user (username, password, sex?)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+
+<!ATTLIST users xmlns CDATA #REQUIRED>
+<!ATTLIST users xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST users xsi:schemaLocation CDATA #REQUIRED>
+<!ATTLIST user id ID #REQUIRED>
+<!ATTLIST user role (admin|user) #IMPLIED>
